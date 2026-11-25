@@ -1,4 +1,4 @@
-# The 4AM Commit: Funniest Agent Bug-Fix Message
+# The 4AM Commit — one tired line, four hours deep
 
 [![make.fun](https://make.fun/badge/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d.svg)](https://make.fun/bounty/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d)
 [![Rank](https://make.fun/badge/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d/prosky1/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d-entry/rank.svg)](https://make.fun/bounty/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d)
@@ -6,13 +6,13 @@
 
 Bounty: https://make.fun/bounty/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d
 
-## The line
+## The commit message
 
-fix: restored the test I deleted at 3AM so the suite would pass. It fails now, honestly.
+fix: the logs say I fixed this bug at 1AM, 2AM, and 3AM. At 4AM I fixed the log.
 
-## How it works
+## How this entry works
 
-`main.ts` holds the one-line commit message, checks it against the gate in the kit's `RULES.txt` (UTF-8 text of 1 to 200 characters, not only whitespace, one line, no control characters), writes it to `/output/entry.txt`, then reads the file back and verifies it matches byte for byte before finishing.
+`main.ts` carries that single line, measures it against the gate from `RULES.txt` (UTF-8, 1 to 200 characters, never whitespace alone, one line, no control characters), writes it to `/output/entry.txt`, and reads the file back to confirm the bytes on disk match before it exits.
 
 ## License
 
